@@ -1,0 +1,14 @@
+<html>
+<head>
+    <title>{{ status.username }}</title>
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Roboto" rel="stylesheet"> 
+	<link href="static/css/status.css" rel="stylesheet">
+</head>
+<body id="body" class="{{ status.class }}">
+	<h1 id='status-primary'>{{ status.primary|safe }}</h1>
+	<h2 id='status-detail'>({{ status.detail|safe }})</h2>
+    <script type="text/javascript" src="static/js/jquery-2.0.3.min.js"></script>
+    <script type="text/javascript" src="static/js/reconnecting-websocket.min.js"></script>
+    <script type="text/javascript" src="static/js/cubesign.js"></script>
+ </body>
+</html>

@@ -1,0 +1,57 @@
+body {
+	background-color: white;
+	color: black;
+	text-align: center;
+    font-size: 5vmin;
+}
+
+.dnd {
+	background-color: red;
+	color: white;
+}
+
+.wfh {
+	background-color: goldenrod;
+	color: white;
+}
+
+.out {
+	background-color: cadetblue;
+	color: white;
+}
+.office-hours {
+	background-color: yellowgreen;
+	color: white;
+}
+.sick {
+	background-color: black;
+	color: white;
+}
+.danger {
+	background-color: black;
+	color: red;
+}
+.default {
+    background-color: black;
+    color: white;
+}
+.available {
+    background-color: white;
+    color: black;
+}
+
+h1 {
+	font-size: 22vmin;
+	font-family: Roboto, Arial, sans-serif;
+	text-transform: lowercase;
+}
+
+h2 {
+	font-size: 8vmin;
+	font-family: Inconsolata, monospace;
+	text-transform: uppercase;
+}
+
+.red {
+	color: red;
+}
